@@ -61,6 +61,6 @@ resource "aws_security_group" "ingress" {
   name_prefix            = null
   revoke_rules_on_delete = null
   tags                   = {}
-  tags_all               = local.common_tags 
+  tags_all               = local.common_tags
   vpc_id                 = module.main.vpc_id
 }
